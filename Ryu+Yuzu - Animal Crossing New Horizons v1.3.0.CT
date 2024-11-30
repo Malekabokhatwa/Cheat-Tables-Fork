@@ -34,7 +34,7 @@ end
 
 heapaddress = rStart
 
-if process == 'yuzu.exe' then
+if process == 'suyu.exe' then
   heapaddress = ( heapaddress + 0x40000000 )
 elseif process == 'Ryujinx.exe' then
   heapaddress = ( heapaddress - 0x40000000 )
